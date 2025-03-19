@@ -1,0 +1,52 @@
+body {
+    color: rgb(238, 236, 236);
+    text-align: center;
+    background-color: rgb(5, 5, 5);
+}
+
+img {
+    width: 400px;
+    height: 413px
+}
+
+
+button {
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 100px;
+    font-family: 'Times New Roman';
+    font-size: larger;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.rotate {
+    animation: rotatefan 0.25s infinite;
+}
+
+@keyframes rotatefan {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(90deg)
+    }
+
+    50% {
+        transform: rotate(180deg)
+    }
+
+    75% {
+        transform: rotate(270deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
